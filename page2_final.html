@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Love Story</title>
+    <style>
+        body {
+            background: url('https://i.imgur.com/qIufhof.jpg') no-repeat center center/cover;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            animation: fadeIn 2s ease-in-out;
+            display: inline-block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        h1 {
+            color: pink;
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .heart {
+            position: absolute;
+            animation: float 5s infinite ease-in-out;
+            font-size: 24px;
+            color: pink;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); opacity: 1; }
+            50% { transform: translateY(-20px); opacity: 0.7; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        .next-page {
+            margin-top: 20px;
+            display: block;
+            text-decoration: none;
+            color: white;
+            background-color: red;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .hearts-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hearts-container">
+    <div class="heart" style="left: 10%; animation-duration: 4s;">❤️</div>
+    <div class="heart" style="left: 30%; animation-duration: 5s;">💖</div>
+    <div class="heart" style="left: 50%; animation-duration: 6s;">❤️</div>
+    <div class="heart" style="left: 70%; animation-duration: 4.5s;">💖</div>
+    <div class="heart" style="left: 90%; animation-duration: 5.5s;">❤️</div>
+</div>
+
+<div class="container">
+    <h1>Majha Gondaas Baal ❤️</h1>
+    <p>From the moment you walked into my life, everything became brighter, more beautiful, and so full of love.</p>
+    <p>Your smile is my favorite sight, your voice is my favorite sound, and your presence is my biggest comfort.</p>
+    <p>You are not just my love, you are my best friend, my home, and my happiness.</p>
+    <p>Every single day with you is a blessing, and I never want to stop making you feel special and loved. 💖</p>
+    <p>I lobeee youu beryy muchh vaiduu (ladkii baikoo) 😘</p>
+    <a href="page3.html" class="next-page">Next</a>
+</div>
+
+</body>
+</html>
